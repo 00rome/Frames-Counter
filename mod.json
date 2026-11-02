@@ -1,0 +1,19 @@
+{
+  "geode": "5.11.2",
+  "gd": { "win": "2.2081" },
+  "id": "rome.frameforge",
+  "name": "FrameForge",
+  "version": "v0.1.0",
+  "developer": "Rome",
+  "description": "Record Geometry Dash inputs, export runs, and inspect click timing data.",
+  "settings": {
+    "recording-title": { "type": "title", "name": "Recording" },
+    "auto-save": { "type": "bool", "name": "Automatically save recordings", "default": true },
+    "capture-releases": { "type": "bool", "name": "Record button releases", "default": true },
+    "analysis-title": { "type": "title", "name": "Display" },
+    "show-click-markers": { "type": "bool", "name": "Show click markers during playback", "default": true },
+    "show-count-summary": { "type": "bool", "name": "Show timing summary", "default": true },
+    "max-marker-frame": { "type": "int", "name": "Maximum marker label", "default": 12, "min": 1, "max": 250 },
+    "recording-fps": { "type": "int", "name": "Recording tick rate", "default": 240, "min": 10, "max": 10000 }
+  }
+}
